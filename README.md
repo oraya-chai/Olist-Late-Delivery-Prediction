@@ -48,9 +48,10 @@ The selected handoff queue also contained **1,745 orders that arrived on time**,
 
 ## Run locally
 
-**Requirements:** Python **3.11** recommended, a running PostgreSQL database with the required dbt tables, and database credentials. The raw Olist files or warehouse setup are not bundled in this package.
+**Requirements:** Python **3.11** recommended, a running PostgreSQL database with the required dbt tables, and database credentials.
 
-From the project folder (the one containing `requirements.txt` and `notebooks/`):
+The raw Olist files and data warehouse setup are not included in this repository. The data preparation and transformation process can be found in the [Olist E-Commerce Analytics Pipeline](https://github.com/oraya-chai/Olist-E-Commerce-Analytics-Pipeline).
+
 
 ```bash
 # Optional: create a virtual environment
